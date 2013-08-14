@@ -1,0 +1,8 @@
+language: java
+jdk:
+  - openjdk7
+script:
+  mvn clean install deploy
+env:
+  global:
+    secure: "TbSHeybz3Lu6oH02OVk/0SvNzBafNQ1VbZHwCxJzmCoAJCRlnc44VAipZWdLofRX4QTLi4fLpbVixkfJ4ipjw7e5TexKV8GOO3Q9pevIEEDUO0eTYnQKMWQ9hm9ISy8ElGcD65dG8SvoxfELXXH5JUFKN+xdW4BPkeJShRWmvOs="
